@@ -1,0 +1,163 @@
+.errors{
+    color: red;
+    text-align: center;
+}
+
+.box{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 28%;
+    height: 750px;
+    width: 40%;
+    border-radius: 25px;
+    background-color:rgb(233, 235, 245);
+    box-shadow: 0 0 8px gray;
+    
+}
+
+.accountupdatetitle_h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 60px;
+    font-size: 35px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.accountupdatetitle_h3{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.ComfirmImage{
+    margin-left: 36.5%;
+}
+
+.Comfirms{
+    text-align: center;
+}
+.ComfirmMail{
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+
+.ComfirmMail:hover {
+    background-color: white;
+}
+
+.ComfirmName{
+    margin-top: 25px;
+    width: 500px;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+
+.ComfirmName:hover {
+    background-color: white;
+}
+
+.ComfirmTel{
+    margin-top: 25px;
+    width: 500px;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+
+.ComfirmTel:hover {
+    background-color: white;
+}
+
+.ComfirmPass{
+    margin-top: 25px;
+    width: 500px;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+
+.ComfirmPass:hover {
+    background-color: white;
+}
+
+.ComfirmFrom{
+    margin-top: 25px;
+    width: 500px;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+
+.ComfirmFrom:hover {
+    background-color: white;
+}
+.ComfirmRegret{
+    margin-top: 25px;
+    width: 500px;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+}
+
+.ComfirmRegret:hover {
+    background-color: white;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.UpdatePush{
+    font-size: 30px;
+    color: white;
+    background-color:rgb(3, 118, 250);
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius:40px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.UpdatePush:hover {
+    color: white;
+    background-color:rgb(140, 184, 252);
+}
+
+
+.UpdateReturn{
+    font-size: 30px;
+    color: white;
+    background-color:rgb(149, 154, 160);
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius:40px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+.UpdateReturn:hover {
+    color: white;
+    background-color:rgb(193, 199, 199);
+}

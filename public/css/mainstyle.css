@@ -1,0 +1,633 @@
+
+#loader-bg {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    z-index: 1;
+  }
+  #loader {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+  }
+
+
+
+.errors{
+    color: red;
+}
+
+::placeholder{
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+/*---------------footer slider---------------------------*/
+
+.news{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+/*-------------------footer-------------------------------*/
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    background: #3f98ef;
+    opacity: 0.6;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#page_top:hover {
+    color: white;
+    background-color:rgb(59, 56, 216)
+}
+
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.mainbody{
+    margin-bottom: 40px;
+    position: relative;/*←相対位置*/
+    padding-bottom: 120px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+  
+}
+.footer{
+    background-color:rgb(3, 118, 250);
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 0 3px gray;
+}
+
+/*--------------------main.blade.php--------------------------------*/
+
+::placeholder{
+    font-size: 20px;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+.hedder{
+    background-color:rgb(3, 118, 250);
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 3px gray;
+}
+
+.SiteName{
+    float: left;
+    padding-left: 70px;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 17px;
+
+}
+
+.MainButtons{
+    text-align: right;
+    padding-right: 70px;
+}
+.postbtn{
+    background-color:rgb(60, 145, 243);
+    color: white;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius:10px;
+    cursor:pointer;
+    box-shadow: 0 0 8px gray;
+}
+
+.postbtn:hover {
+    color: white;
+    background-color:blue;
+}
+
+.serchbtn{
+    background-color:rgb(60, 145, 243);
+    color: white;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    border: none;
+    border-radius:10px;
+    cursor:pointer;
+    box-shadow: 0 0 8px gray;
+}
+.serchbtn:hover {
+    color: white;
+    background-color:blue;
+}
+
+.Accountbtn{
+    background-color:rgb(60, 145, 243);
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius:10px;
+    border: none;
+    margin-left: 10px;
+    cursor:pointer;
+    box-shadow: 0 0 8px gray;
+}
+
+.Accountbtn:hover {
+    color: white;
+    background-color:blue;
+}
+.logoutbtn{
+    background-color: rgb(60, 145, 243);
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius:10px;
+    border: none;
+    margin-left: 10px;
+    cursor:pointer;
+    box-shadow: 0 0 8px gray;
+}
+
+.logoutbtn:hover {
+    color: white;
+    background-color:blue;
+}
+
+.userimg{
+    border-radius: 50%;
+    width:  50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 9px solid black;
+}
+
+.DataError{
+    text-align: center;
+}
+
+.DataNoneError{
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+.list{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 820px;
+    border-radius:10px;
+    background-color:rgb(233, 235, 245);
+    box-shadow: 0 0 8px gray;
+
+}
+
+.comment_tr{
+
+    background: rgb(122, 43, 43);
+
+}
+
+.PostUserImage{
+    border-radius:10px;
+    background-color: rgb(3, 118, 250);
+}
+
+.img{
+    margin-top: 1%;
+    border-radius:50px;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+}
+
+.name{
+    margin-left:20px;
+    font-size:30px;
+    color: white;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.postday{
+    margin-left:20px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.postImg{
+    text-align: center;
+    width: 350px;
+    height: 220px;
+    border-radius: 3%;
+    border-color: rgb(253, 142, 142);
+}
+
+.userpost{
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    font-size: 22px;
+}
+
+.commentbtn{
+    font-size: 17px;
+    border: none;
+    background-color:rgb(233, 235, 245);
+    color: blue;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    cursor:pointer;
+    margin-left: 690px;
+}
+
+.commentbtn:hover{
+    font-size: 17.5px;
+}
+
+.commentUserimg{
+    border-radius:50px;
+    height: 20px;
+    width: 20px;
+}
+
+.commenttitlename{
+    border-radius:25px;
+    background-color: rgb(130, 181, 235);
+    color: white;
+    padding-left: 10px;
+}
+
+.CommentUserName{
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    color: blue;
+    font-size: 22px;
+
+}
+
+.commentday{
+    font-size: 13px;
+    color: rgb(33, 132, 246);
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+
+}
+
+.commenttext{
+    font-size: 17px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.news{
+    display:flex;
+}
+
+.yahoo{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    margin-right: 650px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    background-color: rgb(2, 40, 255);
+}
+
+.bottomline{
+    background-color: white;
+}
+/*----------------------div keyword---------------------------------------*/
+
+.Serchbody{
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    height: 200px;
+    width: 500px;
+
+    margin-top: 80px;
+    margin-right: 0%;
+    display: none;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 10px gray;
+}
+
+.NameSerch{
+    text-align: center;
+    margin: auto;
+}
+.keyword{
+    margin-top: 10px;
+    background-color: rgb(212, 226, 250);
+    width: 300px;
+    height: 30px;
+    border-radius:25px;
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+    box-shadow: 0 0 5px gray;
+
+}
+
+.keyword:hover {
+    background-color: white;
+}
+
+.keyword-modal-close{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(250, 250, 250);
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.keyword-modal-close:hover{
+    font-size: 21px;
+}
+
+.keyword-serch{
+    text-align: center;
+}
+.keyword-serch-btn{
+    font-size: 20px;
+    color: white;
+    background-color:rgb(3, 118, 250);
+    text-align: center;
+    margin-top: 40px;
+    width: 150px;
+    height: 35px;
+    border-radius:40px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    cursor:pointer;
+}
+
+.keyword-serch-btn:hover{
+    color: white;
+    background-color:rgb(140, 184, 252);
+}
+/*-------------------div posts---------------------------------*/
+.postsbody{
+    background-color: rgb(250, 250, 250);
+    border-radius:25px;
+    height: 700px;
+    width: 35%;
+
+    margin-top: 5%;
+    margin-left: 35%;
+    display: none;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 10px gray;
+
+}
+
+.post-modal-close{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(250, 250, 250);
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.post-modal-close:hover{
+    font-size: 22px;
+}
+.posts_h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.imgbtn{
+    margin-left: 120px;
+}
+
+.postarea{
+    text-align: center;
+}
+.post{
+    border-radius:25px;
+    box-shadow: 0 0 5px rgb(253, 142, 142);
+    font-size: 20px;
+    height: 250px;
+    width: 70%;
+    background-color: rgb(212, 226, 250);
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+    cursor:pointer;
+    outline: none;
+}
+
+.post-buttons{
+    text-align: center;
+}
+
+.postpush{
+    font-size: 20px;
+    color: white;
+    background-color:rgb(3, 118, 250);
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius:40px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    cursor:pointer;
+}
+
+.postpush:hover{
+    color: white;
+    background-color:rgb(140, 184, 252);
+}    
+
+/*-------------------div comments---------------------------------*/
+
+.commentbody{
+    background-color: rgb(250, 250, 250);
+    border-radius:25px;
+    height: 700px;
+    width: 35%;
+    box-shadow: 0 0 10px gray;
+
+    margin-top: 5%;
+    margin-left: 35%;
+    display: none;
+    position: fixed;
+    top: 0;
+}
+
+.comment-modal-close{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(250, 250, 250);
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.comment-modal-close:hover{
+    font-size: 22px;
+}
+
+.comment_h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.commentarea{
+    text-align: center;
+}
+.comment{
+    border-radius:25px;
+    box-shadow: 0 0 5px rgb(253, 142, 142);
+    font-size: 20px;
+    height: 250px;
+    width: 70%;
+    background-color: rgb(212, 226, 250);
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-top: 30px;
+    cursor:pointer;
+    outline: none;
+
+}
+
+.comment-buttons{
+    text-align: center;
+}
+
+.commentpush{
+    font-size: 20px;
+    color: white;
+    background-color:rgb(3, 118, 250);
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius:40px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    cursor:pointer;
+}
+
+.commentpush:hover{
+    color: white;
+    background-color:rgb(140, 184, 252);
+}
+
+/*-----------------div AccountRoom--------------------------------------------*/
+
+.AccountRoom{
+    border-radius: 25px;
+    background-color: rgb(250, 250, 250);
+    height: 700px;
+    width: 35%;
+    box-shadow: 0 0 10px gray;
+
+    margin-top: 5%;
+    margin-left: 35%;
+    display: none;
+    position: fixed;
+    top: 0;
+}
+
+.accountTitle{
+    text-align: center;
+    font-size: 30px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+.AccountButtons{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.custom{
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    font-size: 30px;
+    color: rgb(3, 118, 250);
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    border: none;
+    cursor:pointer;
+}
+
+.custom:hover{
+    background-color: rgb(82, 161, 251);
+    color: white;;
+}
+.postmemory{
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    font-size: 30px;
+    color: rgb(3, 118, 250);
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    border: none;
+    cursor:pointer;
+}
+.postmemory:hover{
+    background-color: rgb(82, 161, 251);
+    color: white;
+}
+
+.accountdelete{
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    font-size: 30px;
+    color: rgb(3, 118, 250);
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    border: none;
+    cursor:pointer;
+}
+
+.accountdelete:hover{
+    background-color: rgb(82, 161, 251);
+    color: white;;
+}
+
+.Account-modal-close{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(250, 250, 250);
+    font-size: 20px;
+    cursor:pointer;
+}

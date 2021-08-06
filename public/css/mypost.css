@@ -1,0 +1,197 @@
+.DataError{
+    text-align: center;
+}
+
+.DataNoneError{
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.list{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 820px;
+    border-radius:10px;
+    background-color:rgb(233, 235, 245);
+    box-shadow: 0 0 10px gray;
+
+}
+
+.PostUserImage{
+    border-radius:10px;
+    background-color: rgb(3, 118, 250);
+}
+
+.img{
+    margin-top: 1%;
+    border-radius:50px;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+}
+
+.name{
+    margin-left:20px;
+    font-size:30px;
+    color: white;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.postday{
+    margin-left:20px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.postImg{
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    border-radius: 3%;
+    border-color: rgb(253, 142, 142);
+}
+
+.userpost{
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    font-size: 22px;
+}
+
+.commentUserimg{
+    border-radius:50px;
+    height: 20px;
+    width: 20px;
+}
+
+.commenttitlename{
+    border-radius:25px;
+    background-color: rgb(130, 181, 235);
+    color: white;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.CommentUserName{
+    color: blue;
+    font-size: 20px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.commentday{
+    font-size: 17px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    margin-left: 10px;
+}
+.commenttext{
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.deletebtn{
+    border: none;
+    color: red;
+    cursor:pointer;
+}
+.deletebtn:hover{
+    font-size: 14px;
+
+}
+.updatebtn{
+    border: none;
+    color: blue;
+    cursor:pointer;
+}
+.updatebtn:hover{
+    font-size: 14px;
+}
+
+.returnBtn{
+    color: white;
+    background-color: rgb(130, 181, 235);
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    border-radius: 5px;
+    font-size: 20px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 0 3px gray;
+    cursor: pointer;
+}
+
+.returnBtn:hover{
+    color: white;
+    background-color: blue;
+}
+/*----------------------------------------------------------------------------------*/
+.postsbody{
+    background-color: rgb(250, 250, 250);
+    border-radius:25px;
+    height: 700px;
+    width: 35%;
+
+    margin-top: 5%;
+    margin-left: 35%;
+    display: none;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 10px gray;
+
+}
+
+.postUpdate-modal-close{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(250, 250, 250);
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.post-modal-close:hover{
+    font-size: 22px;
+}
+.posts_h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.imgbtn{
+    margin-left: 120px;
+}
+
+.postarea{
+    text-align: center;
+}
+.post{
+    border-radius:25px;
+    box-shadow: 0 0 5px rgb(253, 142, 142);
+    font-size: 20px;
+    height: 250px;
+    width: 70%;
+    background-color: rgb(212, 226, 250);
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+    cursor:pointer;
+    outline: none;
+}
+
+.post-buttons{
+    text-align: center;
+}
+
+.postpush{
+    font-size: 20px;
+    color: white;
+    background-color:rgb(3, 118, 250);
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius:40px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    cursor:pointer;
+}
+
+.postpush:hover{
+    color: white;
+    background-color:rgb(140, 184, 252);
+}    

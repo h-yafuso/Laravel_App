@@ -1,0 +1,181 @@
+.errors{
+    color: red;
+}
+
+::placeholder{
+    font-size: 17px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+.box{
+    text-align: center;
+    text-align: center;
+    margin-left: 28%;
+    height: 750px;
+    width: 40%;
+    border-radius: 25px;
+    background-color:rgb(233, 235, 245);
+    box-shadow: 0 0 8px gray;
+}
+
+.accounttitle{
+    margin-top: 60px;
+    margin-left: 45px;
+    padding-top: 30px;
+    width: 600px;
+    border-radius:25px;
+    color: rgb(3, 118, 250);
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+}
+
+.Newmail{
+    width: 65%;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+.Newmail:hover {
+    background-color: white;
+}
+
+.Newname{
+    margin-top: 10px;
+    width: 65%;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+.Newname:hover {
+    background-color: white;
+}
+
+.Newtel{
+    margin-top: 10px;
+    width: 65%;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+.Newtel:hover {
+    background-color: white;
+}
+
+.Newpass{
+    margin-top: 10px;
+    width: 65%;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+.Newpass:hover {
+    background-color: white;
+}
+
+.Newfrom{
+    margin-top: 10px;
+    width: 65%;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+.Newfrom:hover {
+    background-color: white;
+}
+
+.Newselected{
+    margin-top: 10px;
+    width: 65%;
+    height: 30px;
+    background-color: rgb(212, 226, 250);
+    cursor:pointer;
+}
+
+.Newquestion{
+    margin-top: 10px;
+    width: 65%;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+}
+.Newquestion:hover {
+    background-color: white;
+}
+
+.Newanswer{
+    margin-top: 20px;
+    width: 65%;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+    outline: none;
+}
+.Newanswer:hover {
+    background-color: white;
+}
+
+.Newregret{
+    margin-top: 20px;
+    width: 65%;
+    height: 30px;
+    border-radius:25px;
+    background-color: rgb(212, 226, 250);
+    padding-left: 20px;
+    cursor:pointer;
+}
+.Newregret:hover {
+    background-color: white;
+}
+
+.Newsubmit{
+    font-size: 30px;
+    color: white;
+    background-color:rgb(3, 118, 250);
+    text-align: center;
+    margin-top: 30px;
+    width: 70%;
+    height: 50px;
+    border-radius:40px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    cursor:pointer;
+}
+
+.Newsubmit:hover {
+    color: white;
+    background-color:rgb(140, 184, 252);
+}
+
+.Newsubmitcancel{
+    font-size: 30px;
+    color: white;
+    background-color:rgb(149, 154, 160);
+    text-align: center;
+    margin-top: 10px;
+    width: 70%;
+    height: 50px;
+    border-radius:40px;
+    font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B";
+    cursor:pointer;
+}
+
+.Newsubmitcancel:hover {
+    color: white;
+    background-color:rgb(193, 199, 199);
+}
